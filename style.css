@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    margin: 0px;
+}
+
+button {
+    background-color: #EB5A00;
+    border: none;
+    width: 200px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+}
+
+button:hover {
+    border: none;
+    outline: none;
+    background-color: #af4300;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+}
+
+.header {
+    display: flex;
+    font-size: 24px;
+    margin: 16px 0px;
+}
+
+.header-links {
+    margin-left: auto;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 16px;
+    font-weight: 300;
+}
+
+.hero {
+    margin: 80px 0px;
+    display: flex;
+    gap: 64px;
+
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.mid-content {
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    padding: 50px 0px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.works-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.works-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.work-item {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+.quote {
+    padding: 64px 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cta-container {
+    background-color: #EB5A00;
+    margin: 0px 150px;
+    padding: 32px 64px ;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    color: white;
+    align-items: center;
+}
+
+.cta-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.cta-text {
+    width: 500px;
+}
+
+.cta-button {
+    box-shadow: none;
+    border:1px solid #F9FAF8;
+}
+
+.footer {
+    padding: 16px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-weight: 300;
+}
